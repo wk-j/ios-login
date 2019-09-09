@@ -1,5 +1,6 @@
+use_frameworks!
+platform :ios, '11.2'
+
 target 'login' do
-  use_frameworks!
-  
   pod 'KeychainAccess'
 end
